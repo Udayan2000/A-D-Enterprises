@@ -86,7 +86,7 @@ const Header = () => {
                                         </Link>
                                     </li>
                                     <li class="header-middle-bg-li">
-                                        < Link to="" class="header-middle-bg-li-a">
+                                        < Link to="/about" class="header-middle-bg-li-a">
                                             About us
                                         </Link>
                                     </li>

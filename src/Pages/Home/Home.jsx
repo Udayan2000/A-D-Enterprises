@@ -1,6 +1,6 @@
 import React from 'react'
 import HomeBanner from '../../Component/HomeBanner'
-import "../Home/Home.css"
+import "../Home/Home.css";
 import HomeAbout from '../../Component/HomeAbout';
 import HomeServices from '../../Component/HomeServices';
 import Homewhychooseus from '../../Component/Homewhychooseus';

@@ -48,7 +48,7 @@ const HomeServices = () => {
                                 <div className='home-sercvices__bg_box_bottom'>
 
                                     <p className='home-sercvices__bg__subpara'>
-                                        A & D Enterprises creates high-quality, creative, and impactful banners designed to effectively showcase your brand and attract attention.
+                                        Impactful and creative posters & flyers that capture attention, inspire engagement, and elevate your brand — with A & D Enterprises.
                                     </p>
                                 </div>
                             </div>
@@ -67,7 +67,7 @@ const HomeServices = () => {
                                 <div className='home-sercvices__bg_box_bottom'>
 
                                     <p className='home-sercvices__bg__subpara'>
-                                        A & D Enterprises creates high-quality, creative, and impactful banners designed to effectively showcase your brand and attract attention.
+                                       A & D Enterprises creates high-quality, creative, and impactful brochures and catalogs designed to effectively showcase your brand and attract attention.
                                     </p>
                                 </div>
                             </div>
@@ -86,7 +86,7 @@ const HomeServices = () => {
                                 <div className='home-sercvices__bg_box_bottom'>
 
                                     <p className='home-sercvices__bg__subpara'>
-                                        A & D Enterprises creates high-quality, creative, and impactful banners designed to effectively showcase your brand and attract attention.
+                                     A & D Enterprises creates high-quality, creative, and impactful hoardings and festoons designed to effectively showcase your brand and attract attention.
                                     </p>
                                 </div>
                             </div>
@@ -207,7 +207,7 @@ const HomeServices = () => {
                         </div>
 
 
-                         <div className='our__services_wrapper_box'>
+                        <div className='our__services_wrapper_box'>
                             <div className='home-sercvices__bg_box'>
                                 <div className='home-sercvices__bg_box_top'>
                                     <div className='home-sercvices_top_img'>
@@ -226,7 +226,7 @@ const HomeServices = () => {
                             </div>
                         </div>
 
-                          <div className='our__services_wrapper_box'>
+                        <div className='our__services_wrapper_box'>
                             <div className='home-sercvices__bg_box'>
                                 <div className='home-sercvices__bg_box_top'>
                                     <div className='home-sercvices_top_img'>
@@ -246,7 +246,7 @@ const HomeServices = () => {
                         </div>
 
 
-                          <div className='our__services_wrapper_box'>
+                        <div className='our__services_wrapper_box'>
                             <div className='home-sercvices__bg_box'>
                                 <div className='home-sercvices__bg_box_top'>
                                     <div className='home-sercvices_top_img'>
@@ -266,7 +266,7 @@ const HomeServices = () => {
                         </div>
 
 
-                          <div className='our__services_wrapper_box'>
+                        <div className='our__services_wrapper_box'>
                             <div className='home-sercvices__bg_box'>
                                 <div className='home-sercvices__bg_box_top'>
                                     <div className='home-sercvices_top_img'>
@@ -286,7 +286,7 @@ const HomeServices = () => {
                         </div>
 
                     </div>
-                    
+
                     <Link to="" className='view__btn'> View More</Link>
                 </div>
             </section>

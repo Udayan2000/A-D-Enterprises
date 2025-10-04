@@ -10,6 +10,8 @@ export {default as man} from "../Assets/Image/man.png";
 export {default as bannerone} from "../Assets/Image/A&D Enterprises banner.jpg";
 export {default as bannerthree} from "../Assets/Image/bannerthree.jpeg";
 export {default as bannertwo} from "../Assets/Image/bannertwo.jpeg";
+export {default as bannersix} from "../Assets/Image/bannersix.png";
+export {default as aanddsmallbanner} from "../Assets/Image/aanddsmallbanner.png"
 export {default as postertwo} from "../Assets/Image/postertwo.jpeg";
 export {default as posterone} from "../Assets/Image/posterone.jpeg";
 export {default as posterthree} from "../Assets/Image/posterthree.jpeg";

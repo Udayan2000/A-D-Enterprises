@@ -357,7 +357,7 @@ body {
 
 .copy-right_ad {
   text-align: center;
-  color: var(--common-color);
+  color: #fff;
   font: 400 16px/20px var(--heading-font);
   padding: 20px 0px 20px 0px;
 }

@@ -7,7 +7,7 @@ import "swiper/css/effect-fade";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import { Link } from 'react-router-dom';
-import { aanddbanner, imagefour, bannergridthree, imageone, bannerone, bannergridone, bannergridtwo, bannergridfour, bannergridfive } from "../Component/Image"
+import { aanddbanner,aanddsmallbanner, imagefour, bannergridthree, bannersix, imageone, bannerone, bannergridone, bannergridtwo, bannergridfour, bannergridfive } from "../Component/Image"
 const HomeBanner = () => {
     return (
         <>
@@ -65,7 +65,7 @@ const HomeBanner = () => {
                                     </div>
                                     <div className='homebanner_content_left_img'>
                                         <div className='homebanner_content_left_img-main'>
-                                            <img src={imagefour} alt='...' />
+                                            <img src={aanddsmallbanner} alt='...' />
                                         </div>
                                     </div>
                                 </div>
@@ -80,16 +80,16 @@ const HomeBanner = () => {
                                         <img src={bannerone} alt='...' />
                                     </div>
                                     <div className='home_banner_bento'>
-                                        <img src={imageone} alt='...' />
-                                    </div>
-                                    <div className='home_banner_bento'>
-                                        <img src={bannergridone} alt='...' />
+                                        <img src={bannergridtwo} alt='...' />
                                     </div>
                                     <div className='home_banner_bento'>
                                         <img src={bannergridfive} alt='...' />
                                     </div>
                                     <div className='home_banner_bento'>
-                                        <img src={bannergridtwo} alt='...' />
+                                        <img src={aanddbanner} alt='...' />
+                                    </div>
+                                    <div className='home_banner_bento'>
+                                        <img src={bannersix} alt='...' />
                                     </div>
                                 </div>
 
@@ -118,7 +118,7 @@ const HomeBanner = () => {
                                 </div>
                                 <div className='homepage_banner_grid-right'>
                                     <div className='homepagebanner_image_resmain'>
-                                        <img src={imagefour} alt='...' />
+                                        <img src={aanddsmallbanner} alt='...' />
                                     </div>
                                 </div>
                             </div>
