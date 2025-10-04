@@ -60,7 +60,7 @@ const HomeBanner = () => {
                                 <div className='homebanner_content_left_img_grid'>
                                     <div className='homebanner_content_left_img'>
                                         <div className='homebanner_content_left_img-main'>
-                                            <img src={aanddbanner} alt='...' />
+                                            <img src={aanddbanner}  alt='...' />
                                         </div>
                                     </div>
                                     <div className='homebanner_content_left_img'>
