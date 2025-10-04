@@ -65,7 +65,7 @@ const HomeBanner = () => {
                                     </div>
                                     <div className='homebanner_content_left_img'>
                                         <div className='homebanner_content_left_img-main'>
-                                            <img src={imagefour} alt='...' />
+                                            <img src={"https://res.cloudinary.com/dgywb2bul/image/upload/v1759568430/34816-1920x1080-desktop-full-hd-naruto-background-photo_rfowmc.jpg"} alt='...' />
                                         </div>
                                     </div>
                                 </div>
