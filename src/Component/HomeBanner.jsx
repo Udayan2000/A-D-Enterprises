@@ -32,7 +32,7 @@ const HomeBanner = () => {
                                     </Link>
                                 </li>
                                 <li className="social-icon-div-li">
-                                    <Link to="" className="social-icon-div-li-a">
+                                    <Link to="https://www.facebook.com/profile.php?id=61580440992285" className="social-icon-div-li-a">
                                         <i className="fa-brands fa-facebook" />
                                     </Link>
                                 </li>
@@ -135,7 +135,7 @@ const HomeBanner = () => {
                                         </Link>
                                     </li>
                                     <li className="social-icon-resdiv-li">
-                                        <Link to="" className="social-icon-div-li-a">
+                                        <Link to="https://www.facebook.com/profile.php?id=61580440992285" className="social-icon-div-li-a">
                                             <i className="fa-brands fa-facebook" />
                                         </Link>
                                     </li>

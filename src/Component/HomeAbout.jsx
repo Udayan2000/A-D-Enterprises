@@ -1,8 +1,8 @@
 import React from 'react'
-import { imagethree, imageone, design,} from "../Component/Image"
+import { imagethree, imageone, design, } from "../Component/Image"
 const HomeAbout = () => {
 
-    
+
     return (
         <>
             <section className='about-section'>
@@ -20,8 +20,8 @@ const HomeAbout = () => {
                             <div className='home__first__para_wrap'>
                                 <span className='home__first__para_span'>✨ A & D Enterprises ✨ </span>
                                 <p className='home__first__para'>
-                                   Impactful designs & prints—turning your brand’s vision into growth.
-                                    From Banners, Flex, and Festoons to ID cards and Social media post more, we deliver creative solutions that help your business stand out in today’s competitive market. 
+                                    Impactful designs & prints—turning your brand’s vision into growth.
+                                    From Banners, Flex, and Festoons to ID cards and Social media post more, we deliver creative solutions that help your business stand out in today’s competitive market.
                                 </p>
                             </div>
                             <div className='home__about__lastgrid'>
@@ -32,7 +32,9 @@ const HomeAbout = () => {
                                         </div>
                                         <div className='lastgrid__left__content'>
                                             <h4 className='lastgrid__left_content_para'> Our Mission</h4>
-                                            <p className='lastgrid__left_content_subpara'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto, corrupti.</p>
+                                            <p className='lastgrid__left_content_subpara'>
+At A & D Enterprises, our mission is to empower businesses with innovative, high-quality design and printing solutions that transform ideas into impactful visuals. We enhance brand visibility and help your business stand out with creativity and excellence.
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
@@ -43,7 +45,7 @@ const HomeAbout = () => {
                                         </div>
                                         <div className='lastgrid__left__content'>
                                             <h4 className='lastgrid__left_content_para'> Our Vission</h4>
-                                            <p className='lastgrid__left_content_subpara'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto, corrupti.</p>
+                                            <p className='lastgrid__left_content_subpara'>At A & D Enterprises, our vision is to be a trusted creative partner delivering innovative design and printing solutions that inspire and transform brands. We strive to drive lasting growth and recognition through impactful creativity and quality.</p>
                                         </div>
                                     </div>
                                 </div>
