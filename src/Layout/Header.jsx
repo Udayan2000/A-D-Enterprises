@@ -91,27 +91,27 @@ const Header = () => {
                                         </Link>
                                     </li>
                                     <li class="header-middle-bg-li">
-                                        <Link to="" class="header-middle-bg-li-a">
+                                        <Link to="/service" class="header-middle-bg-li-a">
                                             Services
                                         </Link>
                                     </li>
                                     <li class="header-middle-bg-li">
-                                        <Link to="" class="header-middle-bg-li-a">
+                                        <Link to="/whychooseus" class="header-middle-bg-li-a">
                                             Why Choose Us
                                         </Link>
                                     </li>
                                     <li class="header-middle-bg-li">
-                                        <Link to="" class="header-middle-bg-li-a">
+                                        <Link to="/ourportfolio" class="header-middle-bg-li-a">
                                             Our Portfolio
                                         </Link>
                                     </li>
                                     <li class="header-middle-bg-li">
-                                        <Link to="" class="header-middle-bg-li-a">
+                                        <Link to="/blog" class="header-middle-bg-li-a">
                                             Blog
                                         </Link>
                                     </li>
                                     <li class="header-middle-bg-li">
-                                        <Link to="" class="header-middle-bg-li-a">
+                                        <Link to="/contact" class="header-middle-bg-li-a">
                                             Contact Us
                                         </Link>
                                     </li>
@@ -161,34 +161,34 @@ const Header = () => {
                     <div className='responsive_headerlink_wrapper'>
                         <ul className='responsive_headerlink_wrapper_ul'>
                             <li className='responsive_headerlink_wrapper_li'>
-                                <Link to="" >
+                                <Link to="/" >
                                     <i class="fa-solid fa-house"></i>
                                 </Link>
                             </li>
                             <li className='responsive_headerlink_wrapper_li'>
-                                <Link to="" >
+                                <Link to="/about" >
                                     <i class="fa-solid fa-circle-info"></i></Link>
                             </li>
                             <li className='responsive_headerlink_wrapper_li'>
-                                <Link to="" >
+                                <Link to="/service" >
                                     <i class="fa-solid fa-toolbox"></i></Link>
                             </li>
                             <li className='responsive_headerlink_wrapper_li'>
-                                <Link to="" >
+                                <Link to="/whychooseus" >
                                     <i class="fa-solid fa-shield"></i>
                                 </Link>
                             </li>
                             <li className='responsive_headerlink_wrapper_li'>
-                                <Link to="" >
+                                <Link to="/blog" >
                                     <i class="fa-solid fa-layer-group"></i></Link>
                             </li>
                             <li className='responsive_headerlink_wrapper_li'>
-                                <Link to="" >
+                                <Link to="/ourportfolio" >
                                     <i class="fa-solid fa-newspaper"></i>
                                 </Link>
                             </li>
                             <li className='responsive_headerlink_wrapper_li'>
-                                <Link to="" >
+                                <Link to="/contact" >
                                     <i class="fa-solid fa-address-card"></i>
                                 </Link>
                             </li>

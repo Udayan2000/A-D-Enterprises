@@ -38,3 +38,7 @@ export {default as bannergridtwo} from "../Assets/Image/bannergridtwo.png";
 export {default as bannergridthree} from "../Assets/Image/bannergridthree.png";
 export {default as bannergridfour} from "../Assets/Image/bannergridfour.png";
 export {default as bannergridfive} from "../Assets/Image/bannergridfive.png";
+
+export {default as landBanInPic} from "../Assets/Image/landBanInPic.png";
+export {default as landBanInImg} from "../Assets/Image/landBanInImg.png";
+export {default as image} from "../Assets/Image/image.png";
