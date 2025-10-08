@@ -10,7 +10,7 @@ const Homeportfolio = ({ tabs }) => {
 
     return (
         <>
-            <section className='home__portfolio_section'>
+            <section className='home__portfolio_section' id="portfolio"> 
                 <div className="shape-dots"></div>
                 <div className="shape-another-dots"></div>
                 <div className='cust-container'>
@@ -276,9 +276,9 @@ const Homeportfolio = ({ tabs }) => {
 
 
 
-                        <Link to="" className='view__btn'>
+                        {/* <Link to="" className='view__btn'>
                             View More
-                        </Link>
+                        </Link> */}
                     </div>
 
                 </div>

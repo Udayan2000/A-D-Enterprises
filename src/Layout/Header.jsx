@@ -1,11 +1,22 @@
-import React from 'react';
+import React, { useState } from 'react';
 import '../App.css';
-import { Link } from 'react-router-dom';
+import { Link,NavLink } from 'react-router-dom';
 import { logo } from '../Component/Image';
 const Header = () => {
+    const [headersticky, setHeadersticky] = useState(false);
+    function setFixed() {
+        if (window.scrollY > 10) {
+            setHeadersticky(true)
+        }
+        else {
+            setHeadersticky(false)
+        }
+    }
+    window.addEventListener("scroll", setFixed);
 
-
-
+    const scrollToSection = (sectionId) => {
+        document.getElementById(sectionId).scrollIntoView({ behavior: 'smooth', });
+    };
     return (
         <>
             <section className='top-header'>
@@ -69,7 +80,7 @@ const Header = () => {
                 </div>
             </section>
 
-            <section class="header-main">
+            <section class={headersticky ? "header-main actv" : "header-main"}>
                 <div class="cust-container">
                     <div class="header-main-div-grid">
                         <div class="header-logo">
@@ -81,39 +92,45 @@ const Header = () => {
                             <div class="header-middle-bg">
                                 <ul class="header-middle-bg-ul">
                                     <li class="header-middle-bg-li">
-                                        <Link to="" class="header-middle-bg-li-a">
+                                        <NavLink class={headersticky ? "header-middle-bg-li-a change" : "header-middle-bg-li-a"} onClick={() => scrollToSection('home')}>
                                             Home
-                                        </Link>
+                                        </NavLink>
                                     </li>
                                     <li class="header-middle-bg-li">
-                                        < Link to="/about" class="header-middle-bg-li-a">
+                                        < NavLink  class={headersticky ? "header-middle-bg-li-a change" : "header-middle-bg-li-a"} onClick={() => scrollToSection('about')}>
                                             About us
-                                        </Link>
+                                        </NavLink>
                                     </li>
                                     <li class="header-middle-bg-li">
-                                        <Link to="/service" class="header-middle-bg-li-a">
+                                        <NavLink  class={headersticky ? "header-middle-bg-li-a change" : "header-middle-bg-li-a"} onClick={() => scrollToSection('service')}>
                                             Services
-                                        </Link>
+                                        </NavLink>
                                     </li>
                                     <li class="header-middle-bg-li">
-                                        <Link to="/whychooseus" class="header-middle-bg-li-a">
+                                        <NavLink  class={headersticky ? "header-middle-bg-li-a change" : "header-middle-bg-li-a"} onClick={() => scrollToSection('choose')}>
                                             Why Choose Us
-                                        </Link>
+                                        </NavLink>
                                     </li>
                                     <li class="header-middle-bg-li">
-                                        <Link to="/ourportfolio" class="header-middle-bg-li-a">
+                                        <NavLink  class={headersticky ? "header-middle-bg-li-a change" : "header-middle-bg-li-a"} onClick={() => scrollToSection('portfolio')}>
                                             Our Portfolio
-                                        </Link>
+                                        </NavLink>
                                     </li>
                                     <li class="header-middle-bg-li">
-                                        <Link to="/blog" class="header-middle-bg-li-a">
+                                        <NavLink  class={headersticky ? "header-middle-bg-li-a change" : "header-middle-bg-li-a"} onClick={() => scrollToSection('home')}>
                                             Blog
+                                        </NavLink>
+                                    </li>
+
+                                    <li class="header-middle-bg-li">
+                                        <Link  class={headersticky ? "header-middle-bg-li-a change" : "header-middle-bg-li-a"} onClick={() => scrollToSection('home')}>
+                                            Client Says
                                         </Link>
                                     </li>
                                     <li class="header-middle-bg-li">
-                                        <Link to="/contact" class="header-middle-bg-li-a">
+                                        <NavLink  class={headersticky ? "header-middle-bg-li-a change" : "header-middle-bg-li-a"} onClick={() => scrollToSection('home')}>
                                             Contact Us
-                                        </Link>
+                                        </NavLink>
                                     </li>
                                 </ul>
                             </div>
@@ -156,6 +173,7 @@ const Header = () => {
 
                 </div>
             </section>
+
             <section className='responsive_headerlink_main'>
                 <div className='cust-container'>
                     <div className='responsive_headerlink_wrapper'>

@@ -5,7 +5,7 @@ const HomeAbout = () => {
 
     return (
         <>
-            <section className='about-section'>
+            <section className='about-section' id="about">
 
                 <div className="shape-dots"></div>
                 <div className="shape-another-dots"></div>

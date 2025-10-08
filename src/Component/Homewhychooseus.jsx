@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 const Homewhychooseus = () => {
   return (
     <>
-      <section className='home__chosse_section'>
+      <section className='home__chosse_section' id="choose">
 
         <div className="shape-dots"></div>
         <div className="shape-another-dots"></div>
@@ -168,7 +168,7 @@ const Homewhychooseus = () => {
 
 
 
-          <Link to="" className='view__btn'> View More</Link>
+          {/* <Link to="" className='view__btn'> View More</Link> */}
         </div>
       </section>
     </>

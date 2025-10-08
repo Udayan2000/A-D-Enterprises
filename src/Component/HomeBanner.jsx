@@ -11,7 +11,7 @@ import { aanddbanner,aanddsmallbanner, imagefour, bannergridthree, bannersix, im
 const HomeBanner = () => {
     return (
         <>
-            <div className="homepage_banner">
+            <div className="homepage_banner" id="home">
 
 
                 <section className='homebanner__main__container'>
