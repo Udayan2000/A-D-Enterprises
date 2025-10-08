@@ -1,5 +1,6 @@
 import React from 'react'
 import { logo } from "../Component/Image"
+import { Link } from 'react-router-dom'
 const Footer = () => {
   return (
     <>
@@ -85,30 +86,30 @@ const Footer = () => {
               <p className='footer_section_heading'>Social</p>
               <ul className='footer_section_link_ul'>
                 <li className='footer_section_link_li'>
-                  <a href=''>
+                  <Link href=''>
                     <i class="fa-brands fa-linkedin"></i>
-                  </a>
+                  </Link>
                 </li>
                 <li className='footer_section_link_li'>
-                  <a href=''>
+                  <Link href=''>
                     <i class="fa-brands fa-youtube"></i>
-                  </a>
+                  </Link>
                 </li>
                 <li className='footer_section_link_li'>
-                  <a href=''>
+                  <Link href=''>
                     <i class="fa-brands fa-facebook"></i>
-                  </a>
+                  </Link>
                 </li>
                 <li className='footer_section_link_li'>
-                  <a href=''>
+                  <Link href=''>
                     <i class="fa-brands fa-instagram"></i>
-                  </a>
+                  </Link>
                 </li>
-                <li className='footer_section_link_li'>
+                {/* <li className='footer_section_link_li'>
                   <a href=''>
                     <i class="fa-solid fa-envelope"></i>
                   </a>
-                </li>
+                </li> */}
               </ul>
             </div>
           </div>

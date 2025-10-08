@@ -123,12 +123,12 @@ const Header = () => {
                                     </li>
 
                                     <li class="header-middle-bg-li">
-                                        <Link  class={headersticky ? "header-middle-bg-li-a change" : "header-middle-bg-li-a"} onClick={() => scrollToSection('home')}>
+                                        <Link  class={headersticky ? "header-middle-bg-li-a change" : "header-middle-bg-li-a"} onClick={() => scrollToSection('client')}>
                                             Client Says
                                         </Link>
                                     </li>
                                     <li class="header-middle-bg-li">
-                                        <NavLink  class={headersticky ? "header-middle-bg-li-a change" : "header-middle-bg-li-a"} onClick={() => scrollToSection('home')}>
+                                        <NavLink  class={headersticky ? "header-middle-bg-li-a change" : "header-middle-bg-li-a"} onClick={() => scrollToSection('contact')}>
                                             Contact Us
                                         </NavLink>
                                     </li>

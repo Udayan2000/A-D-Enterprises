@@ -74,7 +74,7 @@ const ClientSays = () => {
             {
                 breakpoint: 1024,
                 settings: {
-                    slidesToShow: 1,
+                    slidesToShow: 2,
                     slidesToScroll: 1,
                     infinite: true,
                     dots: false,
@@ -113,7 +113,7 @@ const ClientSays = () => {
     };
     return (
         <>
-            <section className='clientsays_section' id="portfolio">
+            <section className='clientsays_section' id="client">
                 <div className="shape-dots"></div>
                 <div className="shape-another-dots"></div>
                 <div className='cust-container'>
