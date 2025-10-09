@@ -534,6 +534,19 @@ body {
     background-color: var(--bg--color);
   }
 
+  .responsive_header_main.actv {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    box-shadow: 0px 0px 5px 0px #ccc;
+    z-index: 9;
+    transition: .5s all ease-in;
+    animation: fadeInDown 800ms;
+    -webkit-backface-visibility: hidden;
+    border-radius: 0px;
+  }
+
   .responsive_header_grid {
     display: grid;
     grid-template-columns: repeat(12, 2fr);
@@ -638,7 +651,7 @@ body {
     grid-column: span 4 / span 6;
   }
 
- 
+
 }
 
 /* @media(max-width:850px) {

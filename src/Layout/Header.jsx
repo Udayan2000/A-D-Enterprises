@@ -80,7 +80,7 @@ const Header = () => {
                 </div>
             </section>
 
-            <section class={headersticky ? "header-main actv" : "header-main"}>
+            <section className={headersticky ? "header-main actv" : "header-main"}>
                 <div class="cust-container">
                     <div class="header-main-div-grid">
                         <div class="header-logo">
@@ -150,7 +150,7 @@ const Header = () => {
                 </div>
             </section>
 
-            <section className='responsive_header_main'>
+            <section className={headersticky ? "responsive_header_main actv" : "responsive_header_main"} >
                 <div className='cust-container'>
                     <div className='responsive_header_grid'>
                         <div className='responsive_header_grid_left'>

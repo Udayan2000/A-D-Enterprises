@@ -1439,7 +1439,7 @@
 
     .homeabout__content_text {
         font: 500 14px / 18px var(--para-font);
-        color: #fff;
+        color: #000000;
         margin-bottom: 10px;
     }
 
@@ -1577,7 +1577,7 @@
 
     .homeabout__content_text {
         font: 500 12px / 15px var(--para-font);
-        color: #fff;
+        color: #000000;
 
     }
 
