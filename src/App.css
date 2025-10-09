@@ -125,6 +125,7 @@ body {
   -webkit-backface-visibility: hidden;
   border-radius: 0px;
 }
+
 @keyframes fadeInDown {
   0% {
     opacity: 0;
@@ -140,9 +141,9 @@ body {
 }
 
 .header-logo {
-     width: 100%;
-    max-width: 17%;
-    min-width: 17%;
+  width: 100%;
+  max-width: 17%;
+  min-width: 17%;
 }
 
 .header-logo-a {
@@ -226,8 +227,9 @@ body {
   margin-bottom: 0px;
   text-transform: uppercase;
 }
-.header-middle-bg-li-a.change{
-   text-decoration: none;
+
+.header-middle-bg-li-a.change {
+  text-decoration: none;
   color: #fff;
   font: 500 16px / 20px var(--para-font);
   margin-bottom: 0px;
@@ -340,7 +342,7 @@ body {
 }
 
 .footer_section_li {
-      margin-bottom: 15px;
+  margin-bottom: 15px;
 }
 
 .footer_section_li i {
@@ -350,7 +352,7 @@ body {
 .footer_section_li a {
   text-decoration: none;
   color: #fff;
-    font: 400 12px / 17px var(--para-font);
+  font: 400 12px / 17px var(--para-font);
   word-break: break-all;
   display: flex;
   align-items: baseline;
@@ -416,6 +418,10 @@ body {
     font: 500 14px / 18px var(--para-font);
   }
 
+  .header-middle-bg-li-a.change {
+    font: 500 14px / 18px var(--para-font);
+  }
+
 
 }
 
@@ -427,9 +433,9 @@ body {
   }
 
   .main-header-bg {
-            width: 100%;
-        max-width: 72%;
-        min-width: 72%;
+    width: 100%;
+    max-width: 72%;
+    min-width: 72%;
   }
 
   .header-logo {
@@ -437,9 +443,11 @@ body {
     max-width: 10%;
     min-width: 10%;
   }
-    .header-middle-bg-li-a {
-        font: 500 12px / 16px var(--para-font);
-    }
+
+  .header-middle-bg-li-a {
+    font: 500 12px / 16px var(--para-font);
+  }
+
   .header-logo-a {
     display: block;
     width: 100%;
@@ -499,6 +507,7 @@ body {
   .footer_section_five {
     grid-column: span 3 / span 6;
   }
+
   .responsive_headerlink_main {
     display: block;
     width: 100%;
@@ -510,7 +519,8 @@ body {
     box-shadow: 0px 0px 5px 0px #ccc;
     border-top: 1px solid #000;
   }
-   .top-header {
+
+  .top-header {
     display: none;
   }
 
@@ -583,7 +593,7 @@ body {
     display: none;
   }
 
-  
+
 
   .responsive_headerlink_wrapper_ul {
     display: flex;
@@ -627,6 +637,8 @@ body {
   .footer_section_five {
     grid-column: span 4 / span 6;
   }
+
+ 
 }
 
 /* @media(max-width:850px) {
