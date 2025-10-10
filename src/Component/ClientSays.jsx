@@ -69,7 +69,7 @@ const ClientSays = () => {
         autoplay: true,
         autoplaySpeed: 7000,
         speed: 8000,
-        PauseOnHover: true,
+        pauseOnHover: true,
         responsive: [
             {
                 breakpoint: 1024,
@@ -81,7 +81,7 @@ const ClientSays = () => {
                     autoplay: true,
                     autoplaySpeed: 7000,
                     speed: 8000,
-                    PauseOnHover: true,
+                   pauseOnHover: true,
                 }
             },
             {
@@ -94,7 +94,7 @@ const ClientSays = () => {
                     autoplay: true,
                     autoplaySpeed: 7000,
                     speed: 8000,
-                    PauseOnHover: true,
+                   pauseOnHover: true,
                 }
             },
 
@@ -108,7 +108,7 @@ const ClientSays = () => {
                     autoplay: true,
                     autoplaySpeed: 7000,
                     speed: 8000,
-                    PauseOnHover: true,
+                 pauseOnHover: true,
                 }
             },
             {
@@ -120,7 +120,7 @@ const ClientSays = () => {
                     autoplay: true,
                     autoplaySpeed: 7000,
                     speed: 8000,
-                    PauseOnHover: true,
+                  pauseOnHover: true,
                 }
             }
         ]
@@ -140,7 +140,7 @@ const ClientSays = () => {
                             {clientdata.map((item, index) => {
                                 return (
                                
-                                    <div className='client_says_main_wrap'>
+                                    <div className='client_says_main_wrap' key={index}>
                                         <div className='client_says_all_content_grid'>
                                             <div className='client_image'>
                                                 <img src={item.image} alt="..." />
