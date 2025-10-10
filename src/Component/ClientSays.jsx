@@ -61,7 +61,7 @@ const ClientSays = () => {
         },
     ]
 
-    var settings = {
+    const settings = {
         dots: false,
         infinite: true,
         slidesToShow: 3,
@@ -81,23 +81,22 @@ const ClientSays = () => {
                     autoplay: true,
                     autoplaySpeed: 7000,
                     speed: 8000,
-                   pauseOnHover: true,
-                }
+                    pauseOnHover: true,
+                },
             },
             {
                 breakpoint: 600,
                 settings: {
                     slidesToShow: 2,
-                    slidesToScroll:1 ,
+                    slidesToScroll: 1,
                     initialSlide: 1,
                     dots: false,
                     autoplay: true,
                     autoplaySpeed: 7000,
                     speed: 8000,
-                   pauseOnHover: true,
-                }
+                    pauseOnHover: true,
+                },
             },
-
             {
                 breakpoint: 576,
                 settings: {
@@ -108,8 +107,8 @@ const ClientSays = () => {
                     autoplay: true,
                     autoplaySpeed: 7000,
                     speed: 8000,
-                 pauseOnHover: true,
-                }
+                    pauseOnHover: true,
+                },
             },
             {
                 breakpoint: 480,
@@ -120,10 +119,10 @@ const ClientSays = () => {
                     autoplay: true,
                     autoplaySpeed: 7000,
                     speed: 8000,
-                  pauseOnHover: true,
-                }
-            }
-        ]
+                    pauseOnHover: true,
+                },
+            },
+        ],
     };
     return (
         <>
@@ -139,7 +138,7 @@ const ClientSays = () => {
                         <Slider {...settings}>
                             {clientdata.map((item, index) => {
                                 return (
-                               
+
                                     <div className='client_says_main_wrap' key={index}>
                                         <div className='client_says_all_content_grid'>
                                             <div className='client_image'>
@@ -165,7 +164,7 @@ const ClientSays = () => {
                                         </div>
 
                                     </div>
-                                   
+
                                 )
                             })}
                         </Slider>
