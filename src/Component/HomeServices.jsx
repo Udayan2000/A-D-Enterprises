@@ -1,5 +1,5 @@
 import React from 'react'
-import { imagethree, imageone, design, } from "../Component/Image"
+import { imagethree, imageone, design, serviceimageone ,serviceimagetwo , serviceimagethree , serviceimagefour , serviceimagefive } from "../Component/Image"
 import { Link } from 'react-router-dom'
 const HomeServices = () => {
     return (
@@ -20,7 +20,7 @@ const HomeServices = () => {
                             <div className='home-sercvices__bg_box'>
                                 <div className='home-sercvices__bg_box_top'>
                                     <div className='home-sercvices_top_img'>
-                                        <img src={imagethree} alt='...' />
+                                        <img src={serviceimageone} alt='...' />
                                     </div>
                                 </div>
                                 <div className='home-sercvices__bg_box_middle'>
@@ -39,7 +39,7 @@ const HomeServices = () => {
                             <div className='home-sercvices__bg_box'>
                                 <div className='home-sercvices__bg_box_top'>
                                     <div className='home-sercvices_top_img'>
-                                        <img src={imagethree} alt='...' />
+                                        <img src={serviceimagetwo} alt='...' />
                                     </div>
                                 </div>
                                 <div className='home-sercvices__bg_box_middle'>
@@ -58,7 +58,7 @@ const HomeServices = () => {
                             <div className='home-sercvices__bg_box'>
                                 <div className='home-sercvices__bg_box_top'>
                                     <div className='home-sercvices_top_img'>
-                                        <img src={imagethree} alt='...' />
+                                        <img src={serviceimagethree} alt='...' />
                                     </div>
                                 </div>
                                 <div className='home-sercvices__bg_box_middle'>
@@ -77,7 +77,7 @@ const HomeServices = () => {
                             <div className='home-sercvices__bg_box'>
                                 <div className='home-sercvices__bg_box_top'>
                                     <div className='home-sercvices_top_img'>
-                                        <img src={imagethree} alt='...' />
+                                        <img src={serviceimagefour} alt='...' />
                                     </div>
                                 </div>
                                 <div className='home-sercvices__bg_box_middle'>
@@ -96,7 +96,7 @@ const HomeServices = () => {
                             <div className='home-sercvices__bg_box'>
                                 <div className='home-sercvices__bg_box_top'>
                                     <div className='home-sercvices_top_img'>
-                                        <img src={imagethree} alt='...' />
+                                        <img src={serviceimagefive} alt='...' />
                                     </div>
                                 </div>
                                 <div className='home-sercvices__bg_box_middle'>

@@ -42,3 +42,9 @@ export {default as bannergridfive} from "../Assets/Image/bannergridfive.png";
 export {default as landBanInPic} from "../Assets/Image/landBanInPic.png";
 export {default as landBanInImg} from "../Assets/Image/landBanInImg.png";
 export {default as image} from "../Assets/Image/image.png";
+
+export {default as serviceimageone} from "../Assets/Image/service_image_one.png";
+export {default as serviceimagetwo} from "../Assets/Image/service_image_two.png";
+export {default as serviceimagethree} from "../Assets/Image/service_image_three.png";
+export {default as serviceimagefour} from "../Assets/Image/service_image_four.png";
+export {default as serviceimagefive} from "../Assets/Image/service_image_five.png";
