@@ -87,6 +87,20 @@ const ClientSays = () => {
             {
                 breakpoint: 600,
                 settings: {
+                    slidesToShow: 2,
+                    slidesToScroll:1 ,
+                    initialSlide: 1,
+                    dots: false,
+                    autoplay: true,
+                    autoplaySpeed: 7000,
+                    speed: 8000,
+                    PauseOnHover: true,
+                }
+            },
+
+            {
+                breakpoint: 576,
+                settings: {
                     slidesToShow: 1,
                     slidesToScroll: 1,
                     initialSlide: 1,
