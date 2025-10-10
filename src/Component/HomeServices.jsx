@@ -115,7 +115,7 @@ const HomeServices = () => {
                             <div className='home-sercvices__bg_box'>
                                 <div className='home-sercvices__bg_box_top'>
                                     <div className='home-sercvices_top_img'>
-                                        <img src={imagethree} alt='...' />
+                                        <img src={serviceimageone} alt='...' />
                                     </div>
                                 </div>
                                 <div className='home-sercvices__bg_box_middle'>
@@ -134,7 +134,7 @@ const HomeServices = () => {
                             <div className='home-sercvices__bg_box'>
                                 <div className='home-sercvices__bg_box_top'>
                                     <div className='home-sercvices_top_img'>
-                                        <img src={imagethree} alt='...' />
+                                        <img src={serviceimagetwo} alt='...' />
                                     </div>
                                 </div>
                                 <div className='home-sercvices__bg_box_middle'>
@@ -153,7 +153,7 @@ const HomeServices = () => {
                             <div className='home-sercvices__bg_box'>
                                 <div className='home-sercvices__bg_box_top'>
                                     <div className='home-sercvices_top_img'>
-                                        <img src={imagethree} alt='...' />
+                                        <img src={serviceimagethree} alt='...' />
                                     </div>
                                 </div>
                                 <div className='home-sercvices__bg_box_middle'>
@@ -172,7 +172,7 @@ const HomeServices = () => {
                             <div className='home-sercvices__bg_box'>
                                 <div className='home-sercvices__bg_box_top'>
                                     <div className='home-sercvices_top_img'>
-                                        <img src={imagethree} alt='...' />
+                                        <img src={serviceimagefour} alt='...' />
                                     </div>
                                 </div>
                                 <div className='home-sercvices__bg_box_middle'>
@@ -191,7 +191,7 @@ const HomeServices = () => {
                             <div className='home-sercvices__bg_box'>
                                 <div className='home-sercvices__bg_box_top'>
                                     <div className='home-sercvices_top_img'>
-                                        <img src={imagethree} alt='...' />
+                                        <img src={serviceimagefive} alt='...' />
                                     </div>
                                 </div>
                                 <div className='home-sercvices__bg_box_middle'>
@@ -211,7 +211,7 @@ const HomeServices = () => {
                             <div className='home-sercvices__bg_box'>
                                 <div className='home-sercvices__bg_box_top'>
                                     <div className='home-sercvices_top_img'>
-                                        <img src={imagethree} alt='...' />
+                                        <img src={serviceimageone} alt='...' />
                                     </div>
                                 </div>
                                 <div className='home-sercvices__bg_box_middle'>
@@ -230,7 +230,7 @@ const HomeServices = () => {
                             <div className='home-sercvices__bg_box'>
                                 <div className='home-sercvices__bg_box_top'>
                                     <div className='home-sercvices_top_img'>
-                                        <img src={imagethree} alt='...' />
+                                        <img src={serviceimagetwo} alt='...' />
                                     </div>
                                 </div>
                                 <div className='home-sercvices__bg_box_middle'>
@@ -250,7 +250,7 @@ const HomeServices = () => {
                             <div className='home-sercvices__bg_box'>
                                 <div className='home-sercvices__bg_box_top'>
                                     <div className='home-sercvices_top_img'>
-                                        <img src={imagethree} alt='...' />
+                                        <img src={serviceimagethree} alt='...' />
                                     </div>
                                 </div>
                                 <div className='home-sercvices__bg_box_middle'>
@@ -270,7 +270,7 @@ const HomeServices = () => {
                             <div className='home-sercvices__bg_box'>
                                 <div className='home-sercvices__bg_box_top'>
                                     <div className='home-sercvices_top_img'>
-                                        <img src={imagethree} alt='...' />
+                                        <img src={serviceimagefour} alt='...' />
                                     </div>
                                 </div>
                                 <div className='home-sercvices__bg_box_middle'>

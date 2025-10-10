@@ -69,7 +69,8 @@ const Header = () => {
                                         >
                                             <path d="M20 4H4a2 2 0 00-2 2v12a2 2 0 002 2h16a2 2 0 002-2V6a2 2 0 00-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z" />
                                         </svg>
-                                        <span className="contact-text">contactaanddenterprises@gmail.com</span>
+                                        <span className="contact-text">
+                                            contact.aanddenterprises2025@gmail.com</span>
                                     </a>
 
 
@@ -92,43 +93,43 @@ const Header = () => {
                             <div class="header-middle-bg">
                                 <ul class="header-middle-bg-ul">
                                     <li class="header-middle-bg-li">
-                                        <NavLink class={headersticky ? "header-middle-bg-li-a change" : "header-middle-bg-li-a"} onClick={() => scrollToSection('home')}>
+                                        <NavLink className={headersticky ? "header-middle-bg-li-a change" : "header-middle-bg-li-a"} onClick={() => scrollToSection('home')}>
                                             Home
                                         </NavLink>
                                     </li>
                                     <li class="header-middle-bg-li">
-                                        < NavLink class={headersticky ? "header-middle-bg-li-a change" : "header-middle-bg-li-a"} onClick={() => scrollToSection('about')}>
+                                        < NavLink className={headersticky ? "header-middle-bg-li-a change" : "header-middle-bg-li-a"} onClick={() => scrollToSection('about')}>
                                             About us
                                         </NavLink>
                                     </li>
                                     <li class="header-middle-bg-li">
-                                        <NavLink class={headersticky ? "header-middle-bg-li-a change" : "header-middle-bg-li-a"} onClick={() => scrollToSection('service')}>
+                                        <NavLink className={headersticky ? "header-middle-bg-li-a change" : "header-middle-bg-li-a"} onClick={() => scrollToSection('service')}>
                                             Services
                                         </NavLink>
                                     </li>
                                     <li class="header-middle-bg-li">
-                                        <NavLink class={headersticky ? "header-middle-bg-li-a change" : "header-middle-bg-li-a"} onClick={() => scrollToSection('choose')}>
+                                        <NavLink className={headersticky ? "header-middle-bg-li-a change" : "header-middle-bg-li-a"} onClick={() => scrollToSection('choose')}>
                                             Why Choose Us
                                         </NavLink>
                                     </li>
                                     <li class="header-middle-bg-li">
-                                        <NavLink class={headersticky ? "header-middle-bg-li-a change" : "header-middle-bg-li-a"} onClick={() => scrollToSection('portfolio')}>
+                                        <NavLink className={headersticky ? "header-middle-bg-li-a change" : "header-middle-bg-li-a"} onClick={() => scrollToSection('portfolio')}>
                                             Our Portfolio
                                         </NavLink>
                                     </li>
                                     <li class="header-middle-bg-li">
-                                        <NavLink class={headersticky ? "header-middle-bg-li-a change" : "header-middle-bg-li-a"} onClick={() => scrollToSection('home')}>
+                                        <NavLink className={headersticky ? "header-middle-bg-li-a change" : "header-middle-bg-li-a"} onClick={() => scrollToSection('home')}>
                                             Blog
                                         </NavLink>
                                     </li>
 
                                     <li class="header-middle-bg-li">
-                                        <Link class={headersticky ? "header-middle-bg-li-a change" : "header-middle-bg-li-a"} onClick={() => scrollToSection('client')}>
+                                        <Link className={headersticky ? "header-middle-bg-li-a change" : "header-middle-bg-li-a"} onClick={() => scrollToSection('client')}>
                                             Client Says
                                         </Link>
                                     </li>
                                     <li class="header-middle-bg-li">
-                                        <NavLink class={headersticky ? "header-middle-bg-li-a change" : "header-middle-bg-li-a"} onClick={() => scrollToSection('contact')}>
+                                        <NavLink className={headersticky ? "header-middle-bg-li-a change" : "header-middle-bg-li-a"} onClick={() => scrollToSection('contact')}>
                                             Contact Us
                                         </NavLink>
                                     </li>
@@ -184,11 +185,11 @@ const Header = () => {
                                 </NavLink>
                             </li>
                             <li className='responsive_headerlink_wrapper_li'>
-                                <NavLink  onClick={() => scrollToSection('about')}>
+                                <NavLink onClick={() => scrollToSection('about')}>
                                     <i class="fa-solid fa-circle-info"></i></NavLink>
                             </li>
                             <li className='responsive_headerlink_wrapper_li'>
-                                <NavLink  onClick={() => scrollToSection('service')}>
+                                <NavLink onClick={() => scrollToSection('service')}>
                                     <i class="fa-solid fa-toolbox"></i></NavLink>
                             </li>
                             <li className='responsive_headerlink_wrapper_li'>
@@ -197,21 +198,21 @@ const Header = () => {
                                 </NavLink>
                             </li>
                             <li className='responsive_headerlink_wrapper_li'>
-                                <NavLink  onClick={() => scrollToSection('portfolio')}>
+                                <NavLink onClick={() => scrollToSection('portfolio')}>
                                     <i class="fa-solid fa-layer-group"></i></NavLink>
                             </li>
                             <li className='responsive_headerlink_wrapper_li'>
-                                <NavLink  onClick={() => scrollToSection('home')}>
+                                <NavLink onClick={() => scrollToSection('home')}>
                                     <i class="fa-solid fa-newspaper"></i>
                                 </NavLink>
                             </li>
                             <li className='responsive_headerlink_wrapper_li'>
-                                <NavLink  onClick={() => scrollToSection('client')}>
-                                   <i class="fa-solid fa-users"></i>
+                                <NavLink onClick={() => scrollToSection('client')}>
+                                    <i class="fa-solid fa-users"></i>
                                 </NavLink>
                             </li>
                             <li className='responsive_headerlink_wrapper_li'>
-                                <NavLink  onClick={() => scrollToSection('contact')}>
+                                <NavLink onClick={() => scrollToSection('contact')}>
                                     <i class="fa-solid fa-address-card"></i>
                                 </NavLink>
                             </li>

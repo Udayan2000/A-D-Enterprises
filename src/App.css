@@ -326,7 +326,7 @@ body {
 .footer_section_heading {
   font: 500 18px / 22px var(--heading-font);
   color: #7e132f;
-  margin-bottom: 10px;
+    margin-bottom: 20px;
   display: block;
   max-width: max-content;
   min-width: min-content;

@@ -85,7 +85,7 @@ const ClientSays = () => {
                 },
             },
             {
-                breakpoint: 600,
+                breakpoint: 767,
                 settings: {
                     slidesToShow: 2,
                     slidesToScroll: 1,
@@ -123,6 +123,7 @@ const ClientSays = () => {
                 },
             },
         ],
+
     };
     return (
         <>

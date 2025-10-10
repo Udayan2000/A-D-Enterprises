@@ -1,11 +1,5 @@
 import React from 'react'
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Autoplay, EffectFade, Pagination, Navigation } from "swiper/modules";
-import "swiper/css";
-import "swiper/css/effect-fade";
 // import "../Pages/Home/Home.css";
-import "swiper/css/pagination";
-import "swiper/css/navigation";
 import { Link } from 'react-router-dom';
 import { aanddbanner,aanddsmallbanner, imagefour, bannergridthree, bannersix, imageone, bannerone, bannergridone, bannergridtwo, bannergridfour, bannergridfive } from "../Component/Image"
 const HomeBanner = () => {
