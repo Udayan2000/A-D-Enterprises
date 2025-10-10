@@ -1,11 +1,15 @@
 import React from 'react'
-import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+// import Slider from "react-slick";
+// import "slick-carousel/slick/slick.css";
+// import "slick-carousel/slick/slick-theme.css";
 import clien1 from "../Assets/Image/client1.png";
 import clien2 from "../Assets/Image/client2.png";
 import clien3 from "../Assets/Image/client3.png";
 import clien4 from "../Assets/Image/client4.png";
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+import "swiper/css/navigation";
+import { Navigation,Autoplay } from "swiper/modules";
 const ClientSays = () => {
 
     const clientdata = [
@@ -61,70 +65,7 @@ const ClientSays = () => {
         },
     ]
 
-    const settings = {
-        dots: false,
-        infinite: true,
-        slidesToShow: 3,
-        slidesToScroll: 1,
-        autoplay: true,
-        autoplaySpeed: 7000,
-        speed: 8000,
-        pauseOnHover: true,
-        responsive: [
-            {
-                breakpoint: 1024,
-                settings: {
-                    slidesToShow: 2,
-                    slidesToScroll: 1,
-                    infinite: true,
-                    dots: false,
-                    autoplay: true,
-                    autoplaySpeed: 7000,
-                    speed: 8000,
-                    pauseOnHover: true,
-                },
-            },
-            {
-                breakpoint: 767,
-                settings: {
-                    slidesToShow: 2,
-                    slidesToScroll: 1,
-                    initialSlide: 1,
-                    dots: false,
-                    autoplay: true,
-                    autoplaySpeed: 7000,
-                    speed: 8000,
-                    pauseOnHover: true,
-                },
-            },
-            {
-                breakpoint: 576,
-                settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1,
-                    initialSlide: 1,
-                    dots: false,
-                    autoplay: true,
-                    autoplaySpeed: 7000,
-                    speed: 8000,
-                    pauseOnHover: true,
-                },
-            },
-            {
-                breakpoint: 480,
-                settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1,
-                    dots: false,
-                    autoplay: true,
-                    autoplaySpeed: 7000,
-                    speed: 8000,
-                    pauseOnHover: true,
-                },
-            },
-        ],
-
-    };
+ 
     return (
         <>
             <section className='clientsays_section' id="client">
@@ -135,7 +76,7 @@ const ClientSays = () => {
                         <h4 className='about__text'>CLIENT SAYS</h4>
                     </div>
 
-                    <div className='client_says_main_view'>
+                    {/* <div className='client_says_main_view'>
                         <Slider {...settings}>
                             {clientdata.map((item, index) => {
                                 return (
@@ -169,8 +110,57 @@ const ClientSays = () => {
                                 )
                             })}
                         </Slider>
-                    </div>
+                    </div> */}
 
+<div className='client_says_main_view'>
+                    <Swiper
+                        modules={[Navigation, Autoplay]}
+                        spaceBetween={20}
+                        slidesPerView={1}
+                        navigation
+                        autoplay={{ delay: 3000, disableOnInteraction: false }}
+                        loop={true}
+                        breakpoints={{
+                            320: { slidesPerView: 1 },
+                            640: { slidesPerView: 1 },
+                            768: { slidesPerView: 2 },
+                            1024: { slidesPerView: 3 },
+                        }}
+                    >
+                        {clientdata.map((item, index) => {
+                            return (
+                                <SwiperSlide>
+                                    <div className='client_says_main_wrap' key={index}>
+                                        <div className='client_says_all_content_grid'>
+                                            <div className='client_image'>
+                                                <img src={item.image} alt="..." />
+                                            </div>
+                                            <div className=''>
+                                                <p className='client_name'>
+                                                    {`${item?.name} owner of ${item?.owner}`} </p>
+
+                                                <p className='clent_says_date'>{item.date}</p>
+
+                                                <div className='client_reviews_start'>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className='clientsaysytxtsdesctxtpppdiv'>
+                                            <p className='clientsaysytxtsdesctxtppp'>{item.para}</p>
+                                        </div>
+
+                                    </div>
+                                </SwiperSlide>
+                            )
+                        })}
+
+                    </Swiper>
+</div>
 
                 </div>
             </section>

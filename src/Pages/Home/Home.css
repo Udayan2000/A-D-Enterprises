@@ -1103,14 +1103,13 @@
     font-size: 15px;
     margin-right: 6px;
 }
+
 .client_says_main_view {
-  width: 100%;
-  max-width: 100%;
-  overflow: hidden;
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
 }
-.client_says_main_view .slick-slide {
-    padding: 0px 20px;
-}
+
 
 .clientsaysytxtsdesctxtpppdiv {
     margin: 15px 30px;
@@ -1125,6 +1124,38 @@
     overflow: hidden;
     text-overflow: ellipsis;
     margin-bottom: 5px;
+}
+
+.client_says_main_view .swiper-button-next {
+    width: 100%;
+    max-width: 30px;
+    min-width: 30px;
+    height: 30px;
+    background-color: var(--bg--color);
+    border-radius: 50%;
+    padding: 7px;
+    color: #fff;
+    font-size: 20px;
+}
+
+.client_says_main_view .swiper-button-next svg {
+    color: #fff;
+}
+
+.client_says_main_view .swiper-button-prev {
+    width: 100%;
+    max-width: 30px;
+    min-width: 30px;
+    height: 30px;
+    background-color: var(--bg--color);
+    border-radius: 50%;
+    padding: 7px;
+    color: #fff;
+    font-size: 20px;
+}
+
+.client_says_main_view .swiper-button-prev svg {
+    color: #fff;
 }
 
 /*  */
@@ -2030,6 +2061,32 @@
         top: 41px;
         left: 0;
     }
+
+
+    .client_says_main_view .swiper-button-next {
+        width: 100%;
+        max-width: 20px;
+        min-width: 20px;
+        height: 20px;
+        background-color: var(--bg--color);
+        border-radius: 50%;
+        padding: 4px;
+        color: #fff;
+        font-size: 10px;
+    }
+
+    .client_says_main_view .swiper-button-prev {
+        width: 100%;
+        max-width: 20px;
+        min-width: 20px;
+        height: 20px;
+        background-color: var(--bg--color);
+        border-radius: 50%;
+        padding: 4px;
+        color: #fff;
+        font-size: 10px;
+    }
+
 
 }
 
