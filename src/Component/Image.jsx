@@ -62,3 +62,5 @@ export {default as logoseven} from "../Assets/Image/logoseven.jpeg";
 export {default as logoeight} from "../Assets/Image/logoeight.jpeg";
 export {default as logonine} from "../Assets/Image/logonine.jpeg";
 export {default as logoten} from "../Assets/Image/logoten.jpeg";
+
+export {default as imagefive} from "../Assets/Image/imagefive.png";

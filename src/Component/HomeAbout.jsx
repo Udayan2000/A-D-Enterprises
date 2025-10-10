@@ -1,5 +1,5 @@
 import React from 'react'
-import { imagethree, imageone, design, } from "../Component/Image"
+import { imagethree, imageone, design,imagefive } from "../Component/Image"
 const HomeAbout = () => {
 
 
@@ -67,7 +67,7 @@ At A & D Enterprises, our mission is to empower businesses with innovative, high
                                 </div>
 
                                 <div className="bento-item bento-image">
-                                    <img src={imagethree} alt="Creative project" />
+                                    <img src={imagefive} alt="Creative project" />
                                 </div>
 
                                 <div className="bento-item bento-image">
