@@ -48,3 +48,17 @@ export {default as serviceimagetwo} from "../Assets/Image/service_image_two.png"
 export {default as serviceimagethree} from "../Assets/Image/service_image_three.png";
 export {default as serviceimagefour} from "../Assets/Image/service_image_four.png";
 export {default as serviceimagefive} from "../Assets/Image/service_image_five.png";
+
+
+
+export {default as logoone} from "../Assets/Image/logoone.jpeg";
+export {default as logotwo} from "../Assets/Image/logotwo.jpeg";
+export {default as logothree} from "../Assets/Image/logothree.jpeg";
+export {default as logofour} from "../Assets/Image/logofour.jpeg";
+export {default as logofive} from "../Assets/Image/logofive.jpeg";
+
+export {default as logosix} from "../Assets/Image/logosix.jpeg";
+export {default as logoseven} from "../Assets/Image/logoseven.jpeg";
+export {default as logoeight} from "../Assets/Image/logoeight.jpeg";
+export {default as logonine} from "../Assets/Image/logonine.jpeg";
+export {default as logoten} from "../Assets/Image/logoten.jpeg";

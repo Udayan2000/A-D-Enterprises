@@ -2,7 +2,8 @@ import React, { useState } from 'react'
 import { bannerone, bannerthree, bannertwo, postertwo, posterone, posterthree, 
     posterfive, postersix, posterseven, brochuresone, brochurestwo, brochuresthree, 
     brochuresfour, brochuresfive, brochuressix ,socialmediaone, socialmediatwo,socialmediathree,
-socialmediafour,socialmediafive,socialmediasix } from "../Component/Image"
+socialmediafour,socialmediafive,socialmediasix,logoone,logotwo,logothree,logofour,logofive,
+logosix,logoseven,logoeight,logonine,logoten } from "../Component/Image"
 import { Link } from 'react-router-dom'
 const Homeportfolio = ({ tabs }) => {
 
@@ -269,6 +270,72 @@ const Homeportfolio = ({ tabs }) => {
                                         <img src={socialmediasix} alt='...' />
                                     </div>
                                 </div>
+
+
+                            </div>
+                        )}
+
+                         {activeTab === "logo" && (
+                            <div className='custom_tabcontent_wrap_two'>
+
+                                <div className='custom_tabcontent_box_two'>
+                                    <div className='custom_tabcontent_box_img'>
+                                        <img src={logoone} alt='...' />
+                                    </div>
+                                </div>
+                                <div className='custom_tabcontent_box_two'>
+                                    <div className='custom_tabcontent_box_img'>
+                                        <img src={logotwo} alt='...' />
+                                    </div>
+                                </div>
+                                <div className='custom_tabcontent_box_two'>
+                                    <div className='custom_tabcontent_box_img'>
+                                        <img src={logothree} alt='...' />
+                                    </div>
+                                </div>
+                                <div className='custom_tabcontent_box_two'>
+                                    <div className='custom_tabcontent_box_img'>
+                                        <img src={logofour} alt='...' />
+                                    </div>
+                                </div>
+                                <div className='custom_tabcontent_box_two'>
+                                    <div className='custom_tabcontent_box_img'>
+                                        <img src={logofive} alt='...' />
+                                    </div>
+                                </div>
+                                <div className='custom_tabcontent_box_two'>
+                                    <div className='custom_tabcontent_box_img'>
+                                        <img src={logosix} alt='...' />
+                                    </div>
+                                </div>
+
+                                 <div className='custom_tabcontent_box_two'>
+                                    <div className='custom_tabcontent_box_img'>
+                                        <img src={logoseven} alt='...' />
+                                    </div>
+                                </div>
+
+
+                                 <div className='custom_tabcontent_box_two'>
+                                    <div className='custom_tabcontent_box_img'>
+                                        <img src={logoeight} alt='...' />
+                                    </div>
+                                </div>
+
+
+                                 <div className='custom_tabcontent_box_two'>
+                                    <div className='custom_tabcontent_box_img'>
+                                        <img src={logonine} alt='...' />
+                                    </div>
+                                </div>
+
+                                 <div className='custom_tabcontent_box_two'>
+                                    <div className='custom_tabcontent_box_img'>
+                                        <img src={logoten} alt='...' />
+                                    </div>
+                                </div>
+
+                               
 
 
                             </div>
