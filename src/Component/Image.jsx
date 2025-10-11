@@ -19,12 +19,12 @@ export {default as posterfive} from "../Assets/Image/posterfive.jpeg";
 export {default as postersix} from "../Assets/Image/postersix.jpeg";
 export {default as posterseven} from "../Assets/Image/posterseven.jpeg";
 export {default as aanddbanner} from "../Assets/Image/aanddbanner.png"
-export {default as brochuresone} from "../Assets/Image/brochuresone.jpeg"
-export {default as brochurestwo} from "../Assets/Image/brochurestwo.jpeg"
-export {default as brochuresthree} from "../Assets/Image/brochuresthree.jpeg"
-export {default as brochuresfour} from "../Assets/Image/brochuresfour.jpeg"
-export {default as brochuresfive} from "../Assets/Image/brochuresfive.jpeg"
-export {default as brochuressix} from "../Assets/Image/brochuressix.jpeg";
+export {default as postereight} from "../Assets/Image/postereight.jpeg"
+export {default as posternine} from "../Assets/Image/posternine.jpeg"
+export {default as posterten} from "../Assets/Image/posterten.jpeg"
+export {default as postereleven} from "../Assets/Image/postereleven.jpeg"
+export {default as postertwelve} from "../Assets/Image/postertwelve.jpeg"
+export {default as posterthirteen} from "../Assets/Image/posterthirteen.jpeg";
 
 export {default as socialmediaone} from "../Assets/Image/socialmediaone.jpeg";
 export {default as socialmediatwo} from "../Assets/Image/socialmediatwo.jpeg";
@@ -32,6 +32,11 @@ export {default as socialmediathree} from "../Assets/Image/socialmediathree.jpeg
 export {default as socialmediafour} from "../Assets/Image/socialmediafour.jpeg";
 export {default as socialmediafive} from "../Assets/Image/socialmediafive.jpeg";
 export {default as socialmediasix} from "../Assets/Image/socialmediasix.jpeg";
+export {default as socialmediaseven} from "../Assets/Image/socialmediaseven.jpeg";
+export {default as socialmediaeight} from "../Assets/Image/socialmediaeight.jpeg";
+export {default as socialmedianine} from "../Assets/Image/socialmedianine.jpeg";
+export {default as socialmediaten} from "../Assets/Image/socialmediaten.jpeg";
+export {default as socialmediaeleven} from "../Assets/Image/socialmediaeleven.jpeg";
 
 export {default as bannergridone} from "../Assets/Image/bannergridone.png";
 export {default as bannergridtwo} from "../Assets/Image/bannergridtwo.png";
@@ -48,8 +53,10 @@ export {default as serviceimagetwo} from "../Assets/Image/service_image_two.png"
 export {default as serviceimagethree} from "../Assets/Image/service_image_three.png";
 export {default as serviceimagefour} from "../Assets/Image/service_image_four.png";
 export {default as serviceimagefive} from "../Assets/Image/service_image_five.png";
-
-
+export {default as serviceimagesix} from "../Assets/Image/service_image_six.png";
+export {default as serviceimagesevne} from "../Assets/Image/service_image_seven.png";
+export {default as serviceimageeight} from "../Assets/Image/service_image_eight.png";
+export {default as serviceimagenine} from "../Assets/Image/sevice_image_nine.png";
 
 export {default as logoone} from "../Assets/Image/logoone.jpeg";
 export {default as logotwo} from "../Assets/Image/logotwo.jpeg";
@@ -64,3 +71,5 @@ export {default as logonine} from "../Assets/Image/logonine.jpeg";
 export {default as logoten} from "../Assets/Image/logoten.jpeg";
 
 export {default as imagefive} from "../Assets/Image/imagefive.png";
+export {default as imagetwoanother} from "../Assets/Image/imagetwoanother.jpg";
+export {default as designanother} from "../Assets/Image/designanother.png"

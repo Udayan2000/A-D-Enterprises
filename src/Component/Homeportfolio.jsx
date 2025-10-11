@@ -1,9 +1,10 @@
 import React, { useState } from 'react'
 import { bannerone, bannerthree, bannertwo, postertwo, posterone, posterthree, 
-    posterfive, postersix, posterseven, brochuresone, brochurestwo, brochuresthree, 
-    brochuresfour, brochuresfive, brochuressix ,socialmediaone, socialmediatwo,socialmediathree,
-socialmediafour,socialmediafive,socialmediasix,logoone,logotwo,logothree,logofour,logofive,
+    posterfive, postersix, posterseven, postereight, posternine, posterten, 
+    postereleven, postertwelve, posterthirteen ,socialmediaone, socialmediatwo,socialmediathree,
+socialmediafour,socialmediafive,socialmediasix,  socialmediaseven, socialmediaeight, socialmedianine, socialmediaten, socialmediaeleven,logoone, logotwo,logothree,logofour,logofive,
 logosix,logoseven,logoeight,logonine,logoten } from "../Component/Image"
+
 import { Link } from 'react-router-dom'
 const Homeportfolio = ({ tabs }) => {
 
@@ -73,7 +74,7 @@ const Homeportfolio = ({ tabs }) => {
                                 </div>
                                 <div className='custom_tabcontent_box_all'>
                                     <div className='custom_tabcontent_box_img_all'>
-                                        <img src={brochuressix} alt='...' />
+                                        <img src={postertwelve} alt='...' />
                                     </div>
                                 </div>
                                 <div className='custom_tabcontent_box_all'>
@@ -95,12 +96,12 @@ const Homeportfolio = ({ tabs }) => {
                                 </div>
                                 <div className='custom_tabcontent_box_all'>
                                     <div className='custom_tabcontent_box_img_all'>
-                                        <img src={brochuresone} alt='...' />
+                                        <img src={posterthirteen} alt='...' />
                                     </div>
                                 </div>
                                 <div className='custom_tabcontent_box_all'>
                                     <div className='custom_tabcontent_box_img_all'>
-                                        <img src={brochuresfour} alt='...' />
+                                        <img src={logosix} alt='...' />
                                     </div>
                                 </div>
                                 <div className='custom_tabcontent_box_all'>
@@ -110,7 +111,40 @@ const Homeportfolio = ({ tabs }) => {
                                 </div>
                                 <div className='custom_tabcontent_box_all'>
                                     <div className='custom_tabcontent_box_img_all'>
-                                        <img src={postersix} alt='...' />
+                                        <img src={logoone} alt='...' />
+                                    </div>
+                                </div>
+
+                                  <div className='custom_tabcontent_box_all'>
+                                    <div className='custom_tabcontent_box_img_all'>
+                                        <img src={logotwo} alt='...' />
+                                    </div>
+                                </div>
+
+                                  <div className='custom_tabcontent_box_all'>
+                                    <div className='custom_tabcontent_box_img_all'>
+                                        <img src={logothree} alt='...' />
+                                    </div>
+                                </div>
+
+
+                                  <div className='custom_tabcontent_box_all'>
+                                    <div className='custom_tabcontent_box_img_all'>
+                                        <img src={logofour} alt='...' />
+                                    </div>
+                                </div>
+
+
+                                  <div className='custom_tabcontent_box_all'>
+                                    <div className='custom_tabcontent_box_img_all'>
+                                        <img src={logofive} alt='...' />
+                                    </div>
+                                </div>
+
+
+                                  <div className='custom_tabcontent_box_all'>
+                                    <div className='custom_tabcontent_box_img_all'>
+                                        <img src={logonine} alt='...' />
                                     </div>
                                 </div>
 
@@ -184,7 +218,7 @@ const Homeportfolio = ({ tabs }) => {
                                 </div>
                                 <div className='custom_tabcontent_box_two'>
                                     <div className='custom_tabcontent_box_img'>
-                                        <img src={posterone} alt='...' />
+                                        <img src={postereight} alt='...' />
                                     </div>
                                 </div>
                                 <div className='custom_tabcontent_box_two'>
@@ -193,48 +227,30 @@ const Homeportfolio = ({ tabs }) => {
                                     </div>
                                 </div>
 
-
-                            </div>
-                        )}
-
-
-                        {activeTab === "brochures" && (
-                            <div className='custom_tabcontent_wrap_two'>
+                                <div className='custom_tabcontent_box_two'>
+                                    <div className='custom_tabcontent_box_img'>
+                                        <img src={posternine} alt='...' />
+                                    </div>
+                                </div>
 
                                 <div className='custom_tabcontent_box_two'>
                                     <div className='custom_tabcontent_box_img'>
-                                        <img src={brochuresone} alt='...' />
+                                        <img src={posterten} alt='...' />
                                     </div>
                                 </div>
-                                <div className='custom_tabcontent_box_two'>
+
+                                 <div className='custom_tabcontent_box_two'>
                                     <div className='custom_tabcontent_box_img'>
-                                        <img src={brochurestwo} alt='...' />
-                                    </div>
-                                </div>
-                                <div className='custom_tabcontent_box_two'>
-                                    <div className='custom_tabcontent_box_img'>
-                                        <img src={brochuresthree} alt='...' />
-                                    </div>
-                                </div>
-                                <div className='custom_tabcontent_box_two'>
-                                    <div className='custom_tabcontent_box_img'>
-                                        <img src={brochuresfour} alt='...' />
-                                    </div>
-                                </div>
-                                <div className='custom_tabcontent_box_two'>
-                                    <div className='custom_tabcontent_box_img'>
-                                        <img src={brochuresfive} alt='...' />
-                                    </div>
-                                </div>
-                                <div className='custom_tabcontent_box_two'>
-                                    <div className='custom_tabcontent_box_img'>
-                                        <img src={brochuressix} alt='...' />
+                                        <img src={postereleven} alt='...' />
                                     </div>
                                 </div>
 
 
                             </div>
                         )}
+
+
+                       
 
 
                          {activeTab === "cardgraphics" && (
@@ -272,8 +288,48 @@ const Homeportfolio = ({ tabs }) => {
                                 </div>
 
 
+                                 <div className='custom_tabcontent_box_two'>
+                                    <div className='custom_tabcontent_box_img'>
+                                        <img src={socialmediaseven} alt='...' />
+                                    </div>
+                                </div>
+
+
+                                 <div className='custom_tabcontent_box_two'>
+                                    <div className='custom_tabcontent_box_img'>
+                                        <img src={socialmediaeight} alt='...' />
+                                    </div>
+                                </div>
+
+
+                                 <div className='custom_tabcontent_box_two'>
+                                    <div className='custom_tabcontent_box_img'>
+                                        <img src={socialmedianine} alt='...' />
+                                    </div>
+                                </div>
+
+
+                                 <div className='custom_tabcontent_box_two'>
+                                    <div className='custom_tabcontent_box_img'>
+                                        <img src={socialmediaten} alt='...' />
+                                    </div>
+                                </div>
+
+
+                                 <div className='custom_tabcontent_box_two'>
+                                    <div className='custom_tabcontent_box_img'>
+                                        <img src={socialmediaeleven} alt='...' />
+                                    </div>
+                                </div>
+
+
+                               
+
+
                             </div>
                         )}
+
+                        
 
                          {activeTab === "logo" && (
                             <div className='custom_tabcontent_wrap_two'>

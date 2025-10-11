@@ -1,5 +1,7 @@
 import React from 'react'
-import { imagethree, imageone, design, serviceimageone ,serviceimagetwo , serviceimagethree , serviceimagefour , serviceimagefive } from "../Component/Image"
+import { imagethree, imageone, design, serviceimageone ,serviceimagetwo , serviceimagethree , serviceimagefour , serviceimagefive , 
+    serviceimagesix , serviceimagesevne , serviceimageeight , serviceimagenine
+ } from "../Component/Image"
 import { Link } from 'react-router-dom'
 const HomeServices = () => {
     return (
@@ -115,7 +117,7 @@ const HomeServices = () => {
                             <div className='home-sercvices__bg_box'>
                                 <div className='home-sercvices__bg_box_top'>
                                     <div className='home-sercvices_top_img'>
-                                        <img src={serviceimageone} alt='...' />
+                                        <img src={serviceimagesix} alt='...' />
                                     </div>
                                 </div>
                                 <div className='home-sercvices__bg_box_middle'>
@@ -134,7 +136,7 @@ const HomeServices = () => {
                             <div className='home-sercvices__bg_box'>
                                 <div className='home-sercvices__bg_box_top'>
                                     <div className='home-sercvices_top_img'>
-                                        <img src={serviceimagetwo} alt='...' />
+                                        <img src={serviceimagesevne} alt='...' />
                                     </div>
                                 </div>
                                 <div className='home-sercvices__bg_box_middle'>
@@ -153,7 +155,7 @@ const HomeServices = () => {
                             <div className='home-sercvices__bg_box'>
                                 <div className='home-sercvices__bg_box_top'>
                                     <div className='home-sercvices_top_img'>
-                                        <img src={serviceimagethree} alt='...' />
+                                        <img src={serviceimageeight} alt='...' />
                                     </div>
                                 </div>
                                 <div className='home-sercvices__bg_box_middle'>
@@ -172,7 +174,7 @@ const HomeServices = () => {
                             <div className='home-sercvices__bg_box'>
                                 <div className='home-sercvices__bg_box_top'>
                                     <div className='home-sercvices_top_img'>
-                                        <img src={serviceimagefour} alt='...' />
+                                        <img src={serviceimagenine} alt='...' />
                                     </div>
                                 </div>
                                 <div className='home-sercvices__bg_box_middle'>
