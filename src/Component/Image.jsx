@@ -58,6 +58,12 @@ export {default as serviceimagesevne} from "../Assets/Image/service_image_seven.
 export {default as serviceimageeight} from "../Assets/Image/service_image_eight.png";
 export {default as serviceimagenine} from "../Assets/Image/sevice_image_nine.png";
 
+export {default as seviceimageten} from "../Assets/Image/sevice_image_ten.png";
+export {default as seviceimageeleven} from "../Assets/Image/sevice_image_eleven.png";
+export {default as seviceimagetwelve} from "../Assets/Image/sevice_image_twelve.png";
+export {default as seviceimagethirteen} from "../Assets/Image/sevice_image_thirteen.png";
+export {default as seviceimagefourteen} from "../Assets/Image/sevice_image_fourteen.png";
+
 export {default as logoone} from "../Assets/Image/logoone.jpeg";
 export {default as logotwo} from "../Assets/Image/logotwo.jpeg";
 export {default as logothree} from "../Assets/Image/logothree.jpeg";
@@ -72,4 +78,7 @@ export {default as logoten} from "../Assets/Image/logoten.jpeg";
 
 export {default as imagefive} from "../Assets/Image/imagefive.png";
 export {default as imagetwoanother} from "../Assets/Image/imagetwoanother.jpg";
-export {default as designanother} from "../Assets/Image/designanother.png"
+export {default as designanother} from "../Assets/Image/designanother.png";
+
+export {default as a} from "../Assets/Image/a.png";
+export {default as specialoffer} from "../Assets/Image/specialoffer.png"

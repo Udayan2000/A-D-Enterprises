@@ -1,6 +1,7 @@
 import React from 'react'
 import { imagethree, imageone, design, serviceimageone ,serviceimagetwo , serviceimagethree , serviceimagefour , serviceimagefive , 
-    serviceimagesix , serviceimagesevne , serviceimageeight , serviceimagenine
+    serviceimagesix , serviceimagesevne , serviceimageeight , serviceimagenine,seviceimageeleven,seviceimageten,seviceimagetwelve,seviceimagethirteen,
+    seviceimagefourteen
  } from "../Component/Image"
 import { Link } from 'react-router-dom'
 const HomeServices = () => {
@@ -136,7 +137,7 @@ const HomeServices = () => {
                             <div className='home-sercvices__bg_box'>
                                 <div className='home-sercvices__bg_box_top'>
                                     <div className='home-sercvices_top_img'>
-                                        <img src={serviceimagesevne} alt='...' />
+                                        <img src={ serviceimageeight} alt='...' />
                                     </div>
                                 </div>
                                 <div className='home-sercvices__bg_box_middle'>
@@ -155,7 +156,7 @@ const HomeServices = () => {
                             <div className='home-sercvices__bg_box'>
                                 <div className='home-sercvices__bg_box_top'>
                                     <div className='home-sercvices_top_img'>
-                                        <img src={serviceimageeight} alt='...' />
+                                        <img src={serviceimagesevne} alt='...' />
                                     </div>
                                 </div>
                                 <div className='home-sercvices__bg_box_middle'>
@@ -193,27 +194,7 @@ const HomeServices = () => {
                             <div className='home-sercvices__bg_box'>
                                 <div className='home-sercvices__bg_box_top'>
                                     <div className='home-sercvices_top_img'>
-                                        <img src={serviceimagefive} alt='...' />
-                                    </div>
-                                </div>
-                                <div className='home-sercvices__bg_box_middle'>
-                                    <p className='home-sercvices__bg-text'> Company Profiles</p>
-                                </div>
-                                <div className='home-sercvices__bg_box_bottom'>
-
-                                    <p className='home-sercvices__bg__subpara'>
-                                        A & D Enterprises creates high-quality, creative, and impactful banners designed to effectively showcase your brand and attract attention.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-
-
-                        <div className='our__services_wrapper_box'>
-                            <div className='home-sercvices__bg_box'>
-                                <div className='home-sercvices__bg_box_top'>
-                                    <div className='home-sercvices_top_img'>
-                                        <img src={serviceimageone} alt='...' />
+                                        <img src={seviceimageten} alt='...' />
                                     </div>
                                 </div>
                                 <div className='home-sercvices__bg_box_middle'>
@@ -228,11 +209,31 @@ const HomeServices = () => {
                             </div>
                         </div>
 
+
                         <div className='our__services_wrapper_box'>
                             <div className='home-sercvices__bg_box'>
                                 <div className='home-sercvices__bg_box_top'>
                                     <div className='home-sercvices_top_img'>
-                                        <img src={serviceimagetwo} alt='...' />
+                                        <img src={seviceimageeleven} alt='...' />
+                                    </div>
+                                </div>
+                                <div className='home-sercvices__bg_box_middle'>
+                                    <p className='home-sercvices__bg-text'>Company Profiles </p>
+                                </div>
+                                <div className='home-sercvices__bg_box_bottom'>
+
+                                    <p className='home-sercvices__bg__subpara'>
+                                        A & D Enterprises creates high-quality, creative, and impactful banners designed to effectively showcase your brand and attract attention.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className='our__services_wrapper_box'>
+                            <div className='home-sercvices__bg_box'>
+                                <div className='home-sercvices__bg_box_top'>
+                                    <div className='home-sercvices_top_img'>
+                                        <img src={seviceimagetwelve} alt='...' />
                                     </div>
                                 </div>
                                 <div className='home-sercvices__bg_box_middle'>
@@ -252,7 +253,7 @@ const HomeServices = () => {
                             <div className='home-sercvices__bg_box'>
                                 <div className='home-sercvices__bg_box_top'>
                                     <div className='home-sercvices_top_img'>
-                                        <img src={serviceimagethree} alt='...' />
+                                        <img src={seviceimagethirteen} alt='...' />
                                     </div>
                                 </div>
                                 <div className='home-sercvices__bg_box_middle'>
@@ -272,7 +273,7 @@ const HomeServices = () => {
                             <div className='home-sercvices__bg_box'>
                                 <div className='home-sercvices__bg_box_top'>
                                     <div className='home-sercvices_top_img'>
-                                        <img src={serviceimagefour} alt='...' />
+                                        <img src={seviceimagefourteen} alt='...' />
                                     </div>
                                 </div>
                                 <div className='home-sercvices__bg_box_middle'>

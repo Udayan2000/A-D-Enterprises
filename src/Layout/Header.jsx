@@ -140,7 +140,7 @@ const Header = () => {
                             <ul class="main-header-left-ul">
 
                                 <li class="main-header-left-li">
-                                    <Link to="" class="main-header-left-li-a">
+                                    <Link to="/Offer" class="main-header-left-li-a">
                                         Special Offer
                                     </Link>
                                 </li>
@@ -164,8 +164,8 @@ const Header = () => {
                             <p class="top-resheader-left-text"><span>A &amp; D Enterprises</span> Makes Brands Shine.</p>
                         </div>
                         <div className='responsive_header_grid_right'>
-                            <Link to="" className='main-resheader-left-li-a' > Special Offer</Link>
-                            <Link to="" className='main-resheader-left-li-a_iocn'>
+                            <Link to="/Offer" className='main-resheader-left-li-a' > Special Offer</Link>
+                            <Link to="/Offer" className='main-resheader-left-li-a_iocn'>
                                 <i class="fa-solid fa-gift"></i>
                             </Link>
                         </div>
