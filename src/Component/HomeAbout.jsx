@@ -1,5 +1,5 @@
 import React from 'react'
-import { imagethree, imageone, designanother,imagefive,imagetwoanother } from "../Component/Image"
+import { imagethree, imageone, designanother,imagefive,imagetwoanother,mission_img } from "../Component/Image"
 const HomeAbout = () => {
 
 
@@ -28,7 +28,7 @@ const HomeAbout = () => {
                                 <div className='lastgrid__left'>
                                     <div className='lastgrid__left__bg'>
                                         <div className='lastgrid__left__bg_img'>
-                                            <img src={imagethree} alt='...' />
+                                            <img src={mission_img} alt='...' />
                                         </div>
                                         <div className='lastgrid__left__content'>
                                             <h4 className='lastgrid__left_content_para'> Our Mission</h4>

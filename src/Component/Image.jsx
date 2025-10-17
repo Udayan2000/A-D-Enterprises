@@ -81,4 +81,5 @@ export {default as imagetwoanother} from "../Assets/Image/imagetwoanother.jpg";
 export {default as designanother} from "../Assets/Image/designanother.png";
 
 export {default as a} from "../Assets/Image/a.png";
-export {default as specialoffer} from "../Assets/Image/specialoffer.png"
+export {default as specialoffer} from "../Assets/Image/specialoffer.png";
+export {default as mission_img} from "../Assets/Image/mission_img.png";
