@@ -72,7 +72,7 @@ const ContactUs = () => {
                                             </Link>
                                         </li>
                                         <li className='contact_info_follow_li'>
-                                            <Link className='contact_info_follow_li-a' to="https://www.facebook.com/profile.php?id=61580440992285">
+                                            <Link className='contact_info_follow_li-a' to="">
                                                 <i class="fa-brands fa-facebook"></i>
                                                 <p className='contact_info_follow_li_text'>FaceBook</p>
                                             </Link>

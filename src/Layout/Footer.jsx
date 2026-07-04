@@ -62,19 +62,19 @@ const Footer = () => {
                 <li className='footer_section_li'>
                   <a href='#'>
                     <i class="fa-solid fa-location-dot"></i>
-                    Ramnagar, Tarakeswar, Hooghly, 712411
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                   </a>
                 </li>
                 <li className='footer_section_li'>
                   <a href='#'>
                     <i class="fa-solid fa-phone"></i>
-                    8101658121
+                   +91 98776663112
                   </a>
                 </li>
                 <li className='footer_section_li'>
                   <a href='#'>
                     <i class="fa-solid fa-envelope"></i>
-                    contactaanddenterprises@gmail.com
+                   test@gmail.com
                   </a>
 
                 </li>
