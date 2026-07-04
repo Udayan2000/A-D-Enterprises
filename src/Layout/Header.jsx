@@ -47,7 +47,7 @@ const Header = () => {
                                         >
                                             <path d="M6.62 10.79a15.05 15.05 0 006.59 6.59l2.2-2.2a1 1 0 01.95-.27 11.36 11.36 0 003.56.57 1 1 0 011 1v3.5a1 1 0 01-1 1A18 18 0 013 5a1 1 0 011-1h3.5a1 1 0 011 1 11.36 11.36 0 00.57 3.56 1 1 0 01-.27.95l-2.18 2.28z" />
                                         </svg>
-                                        <span className="contact-text">+91 8101658121</span>
+                                        <span className="contact-text">   +91 98776663112</span>
                                     </a>
 
 
@@ -70,7 +70,7 @@ const Header = () => {
                                             <path d="M20 4H4a2 2 0 00-2 2v12a2 2 0 002 2h16a2 2 0 002-2V6a2 2 0 00-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z" />
                                         </svg>
                                         <span className="contact-text">
-                                            contact.aanddenterprises2025@gmail.com</span>
+                                            test@gmail.com</span>
                                     </a>
 
 
