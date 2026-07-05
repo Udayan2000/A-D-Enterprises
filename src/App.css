@@ -389,6 +389,9 @@ body {
   color: #fff;
   font: 500 18px/22px var(--heading-font);
 }
+.copy-right_ad{
+  color: #fff; 
+}
 
 /* Footer End */
 

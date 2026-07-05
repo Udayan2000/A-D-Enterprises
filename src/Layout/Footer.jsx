@@ -61,7 +61,7 @@ const Footer = () => {
                 <li className='footer_section_li'>
                   <a href='#'>
                     <i class="fa-solid fa-location-dot"></i>
-                    Ramnagar, Tarakeswar, Hooghly, 712411
+                    Lorem Ipsum is simply dummy text of the printing. 
                   </a>
                 </li>
                 <li className='footer_section_li'>
@@ -113,12 +113,7 @@ const Footer = () => {
             </div>
           </div>
           <p class="copy-right_ad">
-
-
             Copyright © 2025      <a href="#">A & D ENTERPRISES </a>   All rights reserved
-
-
-
           </p>
         </div>
       </section>
