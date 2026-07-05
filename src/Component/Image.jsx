@@ -1,4 +1,6 @@
 export {default as logo} from "../Assets/Image/a&d Enterprises logo.png";
+export {default as a} from "../Assets/Image/a.png";
+export {default as specialoffer} from "../Assets/Image/specialoffer.png";
 export {default as imageanother} from "../Assets/Image/image-another.png";
 export {default as design} from "../Assets/Image/design.jpg";
 export {default as imagethree} from "../Assets/Image/image-three.jpg";

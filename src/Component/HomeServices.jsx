@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 const HomeServices = () => {
     return (
         <>
-            <section className='about-section'>
+            <section className='about-section' id="services">
 
                 <div className="shape-dots"></div>
                 <div className="shape-another-dots"></div>

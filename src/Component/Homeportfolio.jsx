@@ -10,7 +10,7 @@ const Homeportfolio = ({ tabs }) => {
 
     return (
         <>
-            <section className='home__portfolio_section'>
+            <section className='home__portfolio_section' id="our-portfolio">
                 <div className="shape-dots"></div>
                 <div className="shape-another-dots"></div>
                 <div className='cust-container'>

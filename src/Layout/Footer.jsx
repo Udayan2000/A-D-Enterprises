@@ -67,13 +67,13 @@ const Footer = () => {
                 <li className='footer_section_li'>
                   <a href='#'>
                     <i class="fa-solid fa-phone"></i>
-                    8101658121
+                    +91 1234567890
                   </a>
                 </li>
                 <li className='footer_section_li'>
                   <a href='#'>
                     <i class="fa-solid fa-envelope"></i>
-                    contactaanddenterprises@gmail.com
+                    test@gmail.com
                   </a>
 
                 </li>

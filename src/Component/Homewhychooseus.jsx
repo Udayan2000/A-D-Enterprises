@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 const Homewhychooseus = () => {
   return (
     <>
-      <section className='home__chosse_section'>
+      <section className='home__chosse_section' id="why-choose-us">
 
         <div className="shape-dots"></div>
         <div className="shape-another-dots"></div>

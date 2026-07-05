@@ -1,10 +1,50 @@
-import React from 'react';
+import React, { useEffect, useState } from "react";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 import '../App.css';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import { logo } from '../Component/Image';
 const Header = () => {
 
+  const [sticky, setSticky] = useState(false);
+    const navigate = useNavigate();
+    const location = useLocation();
 
+        useEffect(() => {
+        const handleScroll = () => {
+            setSticky(window.scrollY > 80);
+        };
+
+        window.addEventListener("scroll", handleScroll);
+
+        return () => window.removeEventListener("scroll", handleScroll);
+    }, []);
+
+    const scrollToSection = (id) => {
+        if (location.pathname !== "/") {
+            navigate("/");
+
+            setTimeout(() => {
+                const element = document.getElementById(id);
+                if (element) {
+                    element.scrollIntoView({
+                        behavior: "smooth",
+                        block: "start",
+                    });
+                }
+            }, 200);
+
+            return;
+        }
+
+        const element = document.getElementById(id);
+
+        if (element) {
+            element.scrollIntoView({
+                behavior: "smooth",
+                block: "start",
+            });
+        }
+    };
 
     return (
         <>
@@ -25,7 +65,7 @@ const Header = () => {
                                     <a
                                         className="contact-link-top"
                                         href="tel:+911234567890"
-                                        aria-label="Call A & D Enterprises at +91 8101658121"
+                                        aria-label="Call A & D Enterprises at +91 1234567890"
                                     >
                                         {/* phone SVG icon */}
                                         <svg
@@ -36,7 +76,7 @@ const Header = () => {
                                         >
                                             <path d="M6.62 10.79a15.05 15.05 0 006.59 6.59l2.2-2.2a1 1 0 01.95-.27 11.36 11.36 0 003.56.57 1 1 0 011 1v3.5a1 1 0 01-1 1A18 18 0 013 5a1 1 0 011-1h3.5a1 1 0 011 1 11.36 11.36 0 00.57 3.56 1 1 0 01-.27.95l-2.18 2.28z" />
                                         </svg>
-                                        <span className="contact-text">+91 8101658121</span>
+                                        <span className="contact-text">+91 1234567890</span>
                                     </a>
 
 
@@ -58,7 +98,7 @@ const Header = () => {
                                         >
                                             <path d="M20 4H4a2 2 0 00-2 2v12a2 2 0 002 2h16a2 2 0 002-2V6a2 2 0 00-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z" />
                                         </svg>
-                                        <span className="contact-text">contactaanddenterprises@gmail.com</span>
+                                        <span className="contact-text">test@gmail.com</span>
                                     </a>
 
 
@@ -69,7 +109,7 @@ const Header = () => {
                 </div>
             </section>
 
-            <section class="header-main">
+            <section className={sticky ? "header-main sticky" : "header-main"}>
                 <div class="cust-container">
                     <div class="header-main-div-grid">
                         <div class="header-logo">
@@ -81,39 +121,39 @@ const Header = () => {
                             <div class="header-middle-bg">
                                 <ul class="header-middle-bg-ul">
                                     <li class="header-middle-bg-li">
-                                        <Link to="" class="header-middle-bg-li-a">
+                                        <button onClick={() => scrollToSection("home")} class="header-middle-bg-li-a">
                                             Home
-                                        </Link>
+                                        </button>
                                     </li>
                                     <li class="header-middle-bg-li">
-                                        < Link to="" class="header-middle-bg-li-a">
+                                        <button onClick={() => scrollToSection("about")} class="header-middle-bg-li-a">
                                             About us
-                                        </Link>
+                                        </button>
                                     </li>
                                     <li class="header-middle-bg-li">
-                                        <Link to="" class="header-middle-bg-li-a">
+                                        <button onClick={() => scrollToSection("services")} class="header-middle-bg-li-a">
                                             Services
-                                        </Link>
+                                        </button>
                                     </li>
                                     <li class="header-middle-bg-li">
-                                        <Link to="" class="header-middle-bg-li-a">
+                                        <button onClick={() => scrollToSection("why-choose-us")} class="header-middle-bg-li-a">
                                             Why Choose Us
-                                        </Link>
+                                        </button>
                                     </li>
                                     <li class="header-middle-bg-li">
-                                        <Link to="" class="header-middle-bg-li-a">
+                                        <button onClick={() => scrollToSection("our-portfolio")} class="header-middle-bg-li-a">
                                             Our Portfolio
-                                        </Link>
+                                        </button>
                                     </li>
-                                    <li class="header-middle-bg-li">
-                                        <Link to="" class="header-middle-bg-li-a">
+                                    {/* <li class="header-middle-bg-li">
+                                        <button onClick={() => scrollToSection("blog")} class="header-middle-bg-li-a">
                                             Blog
-                                        </Link>
-                                    </li>
+                                        </button>
+                                    </li> */}
                                     <li class="header-middle-bg-li">
-                                        <Link to="" class="header-middle-bg-li-a">
+                                        <button onClick={() => scrollToSection("contact")} class="header-middle-bg-li-a">
                                             Contact Us
-                                        </Link>
+                                        </button>
                                     </li>
                                 </ul>
                             </div>
@@ -122,7 +162,7 @@ const Header = () => {
                             <ul class="main-header-left-ul">
 
                                 <li class="main-header-left-li">
-                                    <Link to="" class="main-header-left-li-a">
+                                    <Link to="/Offer" class="main-header-left-li-a">
                                         Special Offer
                                     </Link>
                                 </li>
@@ -156,6 +196,7 @@ const Header = () => {
 
                 </div>
             </section>
+
             <section className='responsive_headerlink_main'>
                 <div className='cust-container'>
                     <div className='responsive_headerlink_wrapper'>
